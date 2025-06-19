@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/organic-flat-abstract-element-pattern_23-2148950504.jpg?ga=GA1.1.1772520270.1735298077&semt=ais_hybrid&w=740);
+    background-size: contain;
+    background-color: #f0f4f8;
+}
+
+.heading {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.topic {
+    text-align: center;
+    margin-top: 1rem;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(23, 83, 11);
+    border-radius: 10px;
+    padding: 0 1rem 0 1rem;
+}
+
+.container {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(33.333% - 1rem);
+    height: auto;
+    padding: 1rem 1.5rem;
+    border-left: 5px solid rgb(32, 117, 15);
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1rem;
+}
+
+.box h1 {
+    color: rgb(32, 117, 15);
+}
+
+.color span {
+    color: blue;
+    font-weight: bold;
+}
+
+.letter-space {
+    letter-spacing: 4px;
+}
+
+.word-spacing {
+    word-spacing: 2px;
+}
+
+.align {
+    text-align: center;
+}
+
+.transform {
+    text-transform: uppercase;
+}
+
+.capital {
+    text-transform: capitalize;
+}
+
+.indentation {
+    text-indent: 5rem;
+}
+
+.styling {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.shadow {
+    text-shadow: 2px 2px 4px rgb(21, 121, 37);
+}
+
+.un-wrapping {
+    text-wrap: nowrap;
+}
+
+.wrapping {
+    text-wrap: wrap;
+}
+
+.line1 {
+    text-decoration: underline;
+}
+
+.line2 {
+    text-decoration: line-through;
+}
+
+.line3 {
+    text-decoration: overline;
+}
+
+
+
+@media (max-width: 768px) {
+    .box {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 425px) {
+    .box {
+        width: 100%;
+    }
+}
